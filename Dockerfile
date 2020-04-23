@@ -25,3 +25,6 @@ RUN wget https://ssd.mathworks.com/supportfiles/downloads/R2019b/Release/5/deplo
     cd .. && \
     rm MATLAB_Runtime_R2019b_Update_5_glnxa64.zip && \
     rm -rf MATLAB_Runtime_R2019b_Update_5_glnxa64
+
+RUN yum -y install gfal2-util \
+                   gfal2-all
